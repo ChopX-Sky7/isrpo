@@ -1,0 +1,22 @@
+hr{
+    color: white;
+}
+
+body{
+    background-color: gray;
+}
+
+.cart-btn{
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: red;
+}
+
+.res-div{
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: red;
+}
+

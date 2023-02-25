@@ -1,0 +1,11 @@
+<person>
+<name>Иванов И.И.</name>
+<passport>6009 412344</passport>
+<phone>2621314</phone>
+<adress>
+<city>Ростов-на-Дону</city>
+<street>Ульяновская 9</street>
+<home>6</home>
+<apartment>12</apartment>
+</adress>
+</person>

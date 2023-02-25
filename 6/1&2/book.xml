@@ -1,0 +1,9 @@
+<book>
+    <author>Лермонтов М.Ю.</author>
+    <bookName>Герой нашего времени</bookName>
+    <publisher>
+    <pubName>Питер</pubName>
+    <city>Санкт-Петербург</city>
+    <year>2012</year>
+    </publisher>
+</book>

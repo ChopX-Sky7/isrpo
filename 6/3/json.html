@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#s").click(function () {
+                var cart = {
+                    "orderID": 12345,
+                    "shopperName": "Ваня Иванов",
+                    "shopperEmail": "ivanov@example.com",
+                    "contents": [
+                        {
+                            "productID": 34,
+                            "productName": "Супер товар",
+                            "quantity": 1
+                        }, {
+                            "productID": 56,
+                            "productName": "Чудо товар",
+                            "quantity": 3
+                        }],
+                    "orderCompleted": true,
+                    "JSType":"Jquery"
+                };
+                alert(JSON.stringify(cart));
+            });
+
+        })
+    </script>
+    <script src="processing.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input class="cart-btn" id='p' type="button" onClick=cart() value="Корзина">
+
+<hr>
+
+<div class="res-div" id="s">
+    <p>Корзина на JQuery</p>
+</div>
+
+
+</body>
+</html>

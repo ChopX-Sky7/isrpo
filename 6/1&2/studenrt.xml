@@ -1,0 +1,13 @@
+<person>
+    <firstName>Иван</firstName>
+    <lastName>Иванов</lastName>
+    <adress>
+        <street>Московское ш., 101, кв.101</street>
+        <city>Москва</city>
+        <postalCode>101101</postalCode>
+    </adress>
+    <phoneNumbers>
+        <phone>812 123-1234</phone>
+        <phone>916 123-4567</phone>
+    </phoneNumbers>
+    </person>
